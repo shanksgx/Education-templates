@@ -1,44 +1,3 @@
-/**index.wxss**/
-.slide-image{
-  width:100%;
-  height:400rpx;
-}
-
-.plate{
-  height:240rpx;
-  background: #fff;
-}
-.plate-item{
-  display: flex;
-  float:left;
-  position: relative;
-  width: 140rpx;
-  height:180rpx;
-  margin-top:38rpx; 
-  margin-left:42rpx;
-}
-.plate-img image{
-  width: 100rpx;
-  height: 100rpx;
-}
-.plate-info{
-  position: absolute;
-  height:40rpx;
-  font-size: 30rpx;
-  font-family: '微软雅黑';
-  bottom: 60rpx;
-  left:-10rpx;
-
-}
-
-.app-title{
- font-size: 36rpx;
- font-family: '微软雅黑';
- border-left:10rpx solid #4ec4c8;
- margin-left: 20rpx;
- margin-top: 20rpx;
- text-indent: 15rpx;
-}
 
 .mod-item{
  width:46%;
@@ -96,14 +55,7 @@
   font-family: '微软雅黑';
   color:#bfbfbf;
 }
-.more{
-  width:100%;
-  height: 100rpx;
-  display: flex;
-  flex-direction: column;
-  border-top:1rpx solid #eeeeee;
-  position: relative;
-}
+
 .more-info{
   display: flex;
   flex-direction: column;
@@ -112,21 +64,4 @@
   line-height: 98rpx;
   text-indent: 30rpx;
   color:#586C94;
-}
-.icon-jt{
-  position: absolute;
-  width:60rpx;
-  height:60rpx;
-  right:0rpx;
-  top:18rpx;
-}
-.iconjtimg{
-  width:60rpx;
-  height:60rpx;
-}
-.clear{
-  display: flex;
-  flex-direction: column;
-  height:10rpx;
-  background: #eeeeee;
 }

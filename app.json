@@ -1,6 +1,12 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/signup/signup",
+    "pages/action/action",
+    "pages/about/about",
+    "pages/teacher/teacher",
+    "pages/teacherlist/teacherlist",
+    "pages/actionlist/actionlist",
     "pages/logs/logs"
   ],
   "window":{
@@ -22,16 +28,16 @@
         "selectedIconPath": "image/homeactive.png"
       },
       {
-        "pagePath": "pages/phone/phone",
+        "pagePath": "pages/signup/signup",
         "text": "我要报名",
         "iconPath": "image/bm.png",
         "selectedIconPath": "image/bmactive.png"
       },
       {
-        "pagePath": "pages/log/log",
-        "text": "我的",
-        "iconPath": "image/user.png",
-        "selectedIconPath": "image/useractive.png"
+        "pagePath": "pages/action/action",
+        "text": "活动",
+        "iconPath": "image/action.png",
+        "selectedIconPath": "image/actionactive.png"
       }
     ]
   },

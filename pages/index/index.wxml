@@ -9,36 +9,36 @@
 </swiper>
 
 <view class="plate">
-  <navigator url="url" class="plate-item">
+  <navigator url="/pages/action/action" open-type="switchTab" hover-class="other-navigator-hover" class="plate-item">
      <view class="plate-img">
        <image src="{{a1src}}"></image>
        </view>
        <text class="plate-info">
-        校园分布
+        活动资讯
        </text>
   </navigator>
-  <navigator url="url" class="plate-item">
+  <navigator url="/pages/signup/signup" open-type="switchTab" hover-class="other-navigator-hover" class="plate-item">
      <view class="plate-img">
        <image src="{{a2src}}"></image>
        </view>
        <text class="plate-info">
-        教学资源
+        预约课程
        </text>
   </navigator>
-  <navigator url="url" class="plate-item">
-     <view class="plate-img">
-       <image src="{{a3src}}"></image>
-       </view>
-       <text class="plate-info">
-        课程中心
-       </text>
-  </navigator>
-  <navigator url="url" class="plate-item">
+  <navigator url="/pages/teacher/teacher" hover-class="navigator-hover" class="plate-item">
      <view class="plate-img">
        <image src="{{a4src}}"></image>
        </view>
        <text class="plate-info">
-        师资团队
+        名师简介
+       </text>
+  </navigator>
+  <navigator url="/pages/about/about" hover-class="navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="{{a3src}}"></image>
+       </view>
+       <text class="plate-info">
+        联系我们
        </text>
   </navigator>
 </view>
@@ -48,6 +48,9 @@
   <view class="app-moduler">
 
     <navigator url="url" class="mod-item">
+      <view class="mod-signup">
+        <image src="{{signupimg}}"></image>
+      </view>
       <view class="mod-img">
         <image src="{{imgsrc}}" class="mod-image"></image>
       </view>
@@ -63,6 +66,9 @@
     </navigator>
     
     <navigator url="url" class="mod-item">
+      <view class="mod-signup">
+        <image src="{{signupimg}}"></image>
+      </view>
       <view class="mod-img">
         <image src="{{imgsrc}}" class="mod-image"></image>
       </view>
@@ -79,7 +85,7 @@
 
   </view>
 </view>
-<navigator class="more" url="">
+<navigator class="more" url="/pages/signup/signup" open-type="switchTab" hover-class="other-navigator-hover">
   <view class="more-info">查看更多</view>
   <view class="icon-jt"><image src="{{jtsrc}}" class="iconjtimg"></image></view>
 </navigator>
